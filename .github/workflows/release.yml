@@ -11,9 +11,8 @@ jobs:
       # https://github.com/huacnlee/zed-extension-action
       - uses: huacnlee/zed-extension-action@v2
         with:
-          extension-name: your-extension-name
-          # extension-path: extensions/${{ extension-name }}
-          push-to: your-name/extensions
+          extension-name: sqlmesh
+          push-to: GitToby/zed-extensions
         env:
           # the personal access token should have "repo" & "workflow" scopes
-          COMMITTER_TOKEN: ${{ secrets.COMMITTER_TOKEN }}
+          COMMITTER_TOKEN: ${{ secrets.ZED_SQLMESH_RELEASE_TOKEN }}
