@@ -6,10 +6,6 @@ authors = ["gittoby"]
 description = "SQLMesh and SQL model support. Enables types, go to definition and hover on models."
 repository = "https://github.com/gittoby/zed-sqlmesh"
 
-[grammars.sql]
-repository = "https://github.com/DerekStride/tree-sitter-sql"
-commit = "4a99c73f5384f2be10adc55208c84d95a7eb1137"
-
 [language_servers.sqlmesh]
 name = "SQLMesh LSP"
 languages = ["SQL"]
