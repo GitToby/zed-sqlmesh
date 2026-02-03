@@ -1,7 +1,7 @@
 id = "sqlmesh"
 name = "SQLMesh"
 schema_version = 1
-version = "0.1.0"
+version = "0.1.4"
 authors = ["gittoby"]
 description = "SQLMesh and SQL model support. Enables types, go to definition and hover on models."
 repository = "https://github.com/gittoby/zed-sqlmesh"
