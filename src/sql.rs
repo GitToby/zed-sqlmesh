@@ -14,7 +14,7 @@ impl zed::Extension for SQLExtension {
     ) -> Result<zed::Command> {
         let path = worktree
             .which("sqlmesh_lsp")
-            .ok_or_else(|| "sqlmesh_lsp not found in PATH. Install sqlmesh with: pip install sqlmesh".to_string())?;
+            .ok_or_else(|| "sqlmesh_lsp not found in PATH. See https://github.com/GitToby/zed-sqlmesh for install instructions.".to_string())?;
 
         Ok(zed::Command {
             command: path,
